@@ -18,8 +18,8 @@ export default defineAppConfig({
     },
     footer: {
       credits: {
-        enabled: false, // possible value are : true | false
-        repository: 'https://www.github.com/nuxt-themes/alpine' // our github repository
+        enabled: true, // possible value are : true | false
+        repository: 'https://github.com/jstemps02' // our github repository
       },
       navigation: true, // possible value are : true | false
       alignment: 'center', // possible value are : 'none' | 'left' | 'center' | 'right'
