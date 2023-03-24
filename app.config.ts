@@ -2,12 +2,12 @@ export default defineAppConfig({
   alpine: {
     title: 'Justin',
     description: 'The minimalist blog theme',
-    image: {
-      src: '/social-card-preview.png',
-      alt: 'An image showcasing my project.',
-      width: 400,
-      height: 300
-    },
+    // image: {
+    //   src: '/social-card-preview.png',
+    //   alt: 'An image showcasing my project.',
+    //   width: 400,
+    //   height: 300
+    // },
     header: {
       position: 'right', // possible value are : | 'left' | 'center' | 'right'
       logo: {
