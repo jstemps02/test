@@ -11,14 +11,14 @@ export default defineAppConfig({
     header: {
       position: 'right', // possible value are : | 'left' | 'center' | 'right'
       logo: {
-        path: '/logo.svg', // path of the logo
-        pathDark: '/logo-dark.svg', // path of the logo in dark mode, leave this empty if you want to use the same logo
+        path: '/logo.png', // path of the logo
+        pathDark: '/logo-dark.png', // path of the logo in dark mode, leave this empty if you want to use the same logo
         alt: 'alpine' // alt of the logo
       }
     },
     footer: {
       credits: {
-        enabled: true, // possible value are : true | false
+        enabled: false, // possible value are : true | false
         repository: 'https://github.com/jstemps02' // our github repository
       },
       navigation: true, // possible value are : true | false
@@ -30,6 +30,11 @@ export default defineAppConfig({
         icon: 'uil:linkedin',
         label: 'LinkedIn',
         href: 'https://www.linkedin.com/in/justin-templeton-936234209'
+      }
+      github: {
+        icon: 'uil:github',
+        label: 'GitHub',
+        href: 'https://github.com/jstemps02'
       }
     },
     form: {
