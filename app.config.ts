@@ -30,7 +30,7 @@ export default defineAppConfig({
         icon: 'uil:linkedin',
         label: 'LinkedIn',
         href: 'https://www.linkedin.com/in/justin-templeton-936234209'
-      }
+      },
       github: {
         icon: 'uil:github',
         label: 'GitHub',
