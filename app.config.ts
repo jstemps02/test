@@ -13,7 +13,10 @@ export default defineAppConfig({
       logo: {
         path: '/logo.png', // path of the logo
         pathDark: '/logo-dark.png', // path of the logo in dark mode, leave this empty if you want to use the same logo
-        alt: 'alpine' // alt of the logo
+        alt: 'alpine', // alt of the logo
+        link: [
+          { rel: 'icon', type: 'image/png', href: '/JT.png' }
+        ]
       }
     },
     footer: {
